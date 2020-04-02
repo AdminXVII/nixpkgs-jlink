@@ -4,7 +4,7 @@ with lib;
 
 stdenv.mkDerivation rec {
   name = "jlink-${version}";
-  version = "614h";
+  version = "670a";
 
   src =
     if stdenv.system == "x86_64-linux" then
